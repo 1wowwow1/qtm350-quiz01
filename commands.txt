@@ -1,8 +1,7 @@
-?
-git checkout main
-
-git clone https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME.git
-cd REPO_NAME
+cd /mnt/c/QTM350
+git clone https://github.com/1wowwow1/qtm350-quiz01.git
+cd qtm350-quiz01
+git init
 touch commands.txt
 git checkout -b feature-update
 mkdir -p reports
