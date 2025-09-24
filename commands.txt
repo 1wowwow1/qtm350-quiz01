@@ -22,6 +22,7 @@ git merge feature-update
 Bonus:
 git remote add upstream https://github.com/1wowwow1/qtm350-quiz01.git
 git remote -v
+<<<<<<< HEAD
 git fetch upstream
 git checkout main
 git pull --ff-only
@@ -32,3 +33,6 @@ gh pr create \
   --head 1wowwow1:main \
   --title "Quiz 01: updates from fork" \
   --body "This PR contains all required changes and commands.txt per Quiz 01."
+=======
+git fetch upstream
+>>>>>>> b9a0fa9 (WIP: save changes before rebase)
