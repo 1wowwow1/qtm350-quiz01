@@ -23,3 +23,12 @@ Bonus:
 git remote add upstream https://github.com/1wowwow1/qtm350-quiz01.git
 git remote -v
 git fetch upstream
+git checkout main
+git pull --ff-only
+git push -u origin main
+gh pr create \
+  --repo 1wowwow1/qtm350-quiz01 \
+  --base main \
+  --head 1wowwow1:main \
+  --title "Quiz 01: updates from fork" \
+  --body "This PR contains all required changes and commands.txt per Quiz 01."
